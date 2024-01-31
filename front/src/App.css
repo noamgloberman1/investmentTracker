@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0059b3;
+  background: rgba(0,89,179,0.7);
+  color: rgba(255,255,255,0.8);
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+#header {
+
+  text-align: center;
+  position: fixed;
+  top: 14%;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+
+}
+.navbar {
+
+  /* sizing */
+  width: 100%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-size: 16px;
+
+  /* positioning */
+  text-align: center;
+  position: fixed;
+  top: 0%;
+  margin: auto;
+  margin-bottom: 2%;
+
+  /* colors and design */
+  color: lightgray;
+  font-weight: bold;
+  transition-duration: 0.5s;
+
+}
+.scrolledNavbar {
+
+    /* sizing */
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 16px;
+  
+    /* positioning */
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    margin: auto;
+    margin-bottom: 2%;
+  
+    /* colors and design */
+    transition-duration: 0.5s;
+    color: lightgray;
+    font-weight: bold;
+    background: rgba(255,255,255,0.2);
+    border: 0.25px dotted white;
+
+}
+#scroller {
+  position: absolute;
+  top: 101%;
+  right: 0%;
+  color: transparent;
+}
+.mainSection {
+
+  position: fixed;
+  top: 30%;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 50vh;
+  border: 1px solid white;
+
+}
+.login {
+
+ position: fixed;
+ top: 30%;
+ margin: auto; 
+ text-align: center;
+ width: 100%;
+ height: 50vh;
+ border: 1px solid white;
+
+}
+input {
+
+  background: transparent;
+  border: 1px solid white;
+  margin: 2%;
+  text-align: center;
+  color: white;
+  padding: 1% 0%;
+  font-weight: 800;
+  border-radius: 5px;
+  height: 5vh;
+  width: 20vh;
+  font-size: 22px;
+
+}
